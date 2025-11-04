@@ -1,0 +1,21 @@
+from dataclasses import dataclass
+
+
+@dataclass
+class Vehicle:
+    plate_number: str
+    speed: int
+
+
+@dataclass
+class Truck(Vehicle):
+    contents: str
+
+
+@dataclass
+class Car(Vehicle):
+    pass
+    
+    
+v = Vehicle("3131", 9000)
+print(v)
