@@ -15,7 +15,3 @@ class Truck(Vehicle):
 @dataclass
 class Car(Vehicle):
     pass
-    
-    
-v = Vehicle("3131", 9000)
-print(v)
